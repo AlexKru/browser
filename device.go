@@ -4,7 +4,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/dineshgowda24/browser/devices"
+	"github.com/alexkru/browser/devices"
 )
 
 var (

@@ -4,8 +4,8 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/dineshgowda24/browser/platforms"
-	"github.com/dineshgowda24/browser/utils"
+	"github.com/alexkru/browser/platforms"
+	"github.com/alexkru/browser/utils"
 )
 
 // PlatformMatcher is an interface for user agent platform matchers.

@@ -3,7 +3,7 @@ package browser
 import (
 	"strings"
 
-	"github.com/dineshgowda24/browser/matchers"
+	"github.com/alexkru/browser/matchers"
 )
 
 const (

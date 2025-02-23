@@ -6,7 +6,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/dineshgowda24/browser/bots"
+	"github.com/alexkru/browser/bots"
 	"gopkg.in/yaml.v2"
 )
 

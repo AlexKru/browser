@@ -6,8 +6,8 @@ type Yandex struct {
 
 var (
 	yandexName          = "Yandex"
-	yandexVersionRegexp = []string{`YaBrowser/([\d.]+)`}
-	yandexMatchRegexp   = []string{`YaBrowser`}
+	yandexVersionRegexp = []string{`YaBrowser/([\d.]+)`, `YaSearchBrowser/([\d.]+)`, `YaSearchApp/([\d.]+)`}
+	yandexMatchRegexp   = []string{`YaBrowser`, `YaSearchBrowser`, `YaSearchApp`}
 )
 
 func NewYandex(p Parser) *Yandex {
